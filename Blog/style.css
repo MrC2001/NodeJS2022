@@ -1,0 +1,67 @@
+.container {
+    width: 150%;
+    margin: 0 auto;
+    height: 5px;
+    float: left;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    float: left;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.content {
+    width: 1024px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.new-posts {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.list-category {
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+.hr {
+    width: 80%;
+    border: 1px solid #dbd8d8;
+    float: left;
+}
+
+.first-post {
+    width: 100%;
+    float: left;
+}
+
+.first-post img {
+    text-align: center;
+    width: 80%;
+}
+
+.category-name {
+    float: left;
+    font-size: 18px;
+}
