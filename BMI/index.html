@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript: BMI calculator</title>
+	</head>
+<style>
+body
+
+
+#num1 {
+    margin-left: 2px;
+}
+
+.firstLabel {
+    margin-left: -5px;
+}
+
+
+
+
+h4 {
+    padding-top: 25px;
+}
+
+#result {
+    border: solid #ccc 2px;
+    border-radius: 25%;
+    width:150px;
+    padding-top: 10px;
+    position: relative;
+    left: 23%;
+    height:40px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+}
+#calc {
+    border: solid #000 3px;
+    width: 350px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    position: absolute;
+    top: 18%;
+    left:36%;
+    background-color: #052bff37;
+}
+
+
+</style>
+<body>
+	<h1>Đo chỉ số BMI</h1>
+<form id="calc">
+	<div class="firstLabel">
+	<label>Chiều cao: </label>
+		<input class = "values" type="text"  id="num1" required><label class="secondLabel">cm</label>
+	</div>
+		<br>
+	<div>
+		<label>Cân nặng:</label>
+		<input class = "values" type="text" id="num2" required ><label class="secondLabel">kg</label>
+	</div>
+		<br>
+	<div id="gender">
+	<input  name="gender" type="radio" value="0" checked>	
+	<label>Nam </label>
+	<input name="gender" type="radio" value="1">
+	<label>Nữ</label>
+	</div>
+    <br>
+	<button id="btn" type="submit" class="btn btn-primary" >Tính BMI</button>
+	<div>
+		<h4>Kết quả:</h4>
+		<p id="result"></p>
+	</div>
+	<br>
+	<p id="message"></p>
+	</form>
+  <script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
